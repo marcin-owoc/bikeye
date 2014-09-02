@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity" >
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <!--<item android:id="@+id/action_bluetooth"
+        android:title="@string/action_bluetooth"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_ble"
+        android:title="@string/action_ble"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_scan"
+        android:title="@string/action_scan"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />-->
+</menu>

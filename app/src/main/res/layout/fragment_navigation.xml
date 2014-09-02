@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".PrototypeActivity$PlaceholderFragment"
+    android:gravity="fill_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORWARD"
+        android:id="@+id/btnNavigationForward"
+        android:background="#ffd4ff8b"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RIGHT"
+        android:id="@+id/btnNavigationRight"
+        android:background="#ffd4ff8b"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SLIGHTLY RIGHT"
+        android:id="@+id/btnNavigationSligthlyRight"
+        android:background="#ffd4ff8b"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEFT"
+        android:id="@+id/btnNavigationLeft"
+        android:background="#ffd4ff8b"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SLIGHTLY LEFT"
+        android:id="@+id/btnNavigationSlightlyLeft"
+        android:background="#ffd4ff8b"
+
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="U-TURN"
+        android:id="@+id/btnNavigationUturn"
+        android:background="#ffd4ff8b"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
+         />
+
+</LinearLayout>
